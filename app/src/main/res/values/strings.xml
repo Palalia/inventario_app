@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">inventario</string>
+    <string name="opc_buscarProduct">Buscar Producto</string>
+    <string name="buscar_producto">Buscar</string>
+    <string name="editTex_ingresarProducto">Ingresar Producto</string>
+    <string name="articulo">Articulo</string>
+    <string name="departamento">Departamento</string>
+</resources>
