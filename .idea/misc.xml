@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Sistemas/AndroidStudioProjects/Inventario2/app/src/main/res/layout/activity_buscar_product.xml" value="0.25" />
-        <entry key="..\:/Users/Sistemas/AndroidStudioProjects/Inventario2/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/Sistemas/AndroidStudioProjects/Inventario2/app/src/main/res/layout/activity_inventario_departamento.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/Sistemas/AndroidStudioProjects/Inventario2/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/Users/Sistemas/AndroidStudioProjects/Inventario2/app/src/main/res/layout/activity_nuevo_inventario.xml" value="0.25" />
       </map>
     </option>
   </component>

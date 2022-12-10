@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    android:allowBackup="true"
+    android:hardwareAccelerated="false"
     <Button
         android:id="@+id/opc_buscarProduct"
         android:layout_width="wrap_content"
@@ -17,4 +18,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/opc_nuevoInventario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="EscogerOpcion"
+        android:text="@string/opc_inventario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opc_buscarProduct" />
 </androidx.constraintlayout.widget.ConstraintLayout>

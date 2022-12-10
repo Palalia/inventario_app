@@ -14,8 +14,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     //cambio de activity
-    public void EscogerOpcion(View view){
-        Intent opc=new Intent(this, buscar_product.class);
+    public void EscogerOpcion(View v){
+        Intent opc;
+        switch(v.getId()){
+            case R.id.opc_buscarProduct:
+                 opc=new Intent(this, buscar_product.class);
+            break;
+            case R.id.opc_nuevoInventario:
+                 opc=new Intent(this, nuevo_inventario.class);
+            break;
+            default:
+                throw new IllegalStateException("Unexpected value: ");
+        }
         startActivity(opc);
     }
 

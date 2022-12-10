@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">inventario</string>
     <string name="opc_buscarProduct">Buscar Producto</string>
+    <string name="opc_inventario">Nuevo Inventario</string>
     <string name="buscar_producto">Buscar</string>
     <string name="editTex_ingresarProducto">Ingresar Producto</string>
     <string name="articulo">Articulo</string>
     <string name="departamento">Departamento</string>
+    <string name="select_departamentos">Selecciona departamentos</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="producto">ingrese codigo</string>
+    <string name="guardar">Guardar</string>
+    <string name="terminar">Terminar</string>
+
 </resources>
